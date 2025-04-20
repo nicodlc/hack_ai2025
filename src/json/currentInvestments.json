@@ -1,0 +1,31 @@
+{
+    "current_investments": {
+      "measured_at_amortized_cost": {
+        "quoted": [
+          { "instrument": "Corporate Bonds",       "2024": 2487, "2023": 3734 },
+          { "instrument": "Commercial Papers",     "2024": 5213, "2023": 4407 },
+          { "instrument": "Certificate of Deposits","2024": 4055, "2023": 2765 },
+          { "instrument": "Treasury Bills",        "2024":    0, "2023":   98 },
+          { "instrument": "Government Securities", "2024":   95, "2023":    0 }
+        ],
+        "unquoted": [
+          { "instrument": "Corporate Deposits",    "2024": 4210, "2023": 8599 },
+          { "instrument": "Commercial Papers",     "2024":    0, "2023":  247 }
+        ]
+      },
+      "measured_at_fvtpl": {
+        "quoted": [
+          { "instrument": "Mutual Funds",          "2024": 51474, "2023": 27568 }
+        ]
+      },
+      "totals": {
+        "total_current_investments":           { "2024": 67534, "2023": 47418 }
+      },
+      "other_disclosures": {
+        "aggregate_amount_quoted_investments": { "2024": 63324, "2023": 38572 },
+        "market_value_quoted_investments":     { "2024": 62951, "2023": 38582 },
+        "aggregate_amount_unquoted_investments": { "2024": 4210, "2023": 8846 }
+      }
+    }
+  }
+  

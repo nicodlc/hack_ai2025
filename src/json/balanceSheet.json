@@ -1,0 +1,104 @@
+{
+    "financial_position": {
+      "assets": {
+        "non_current": {
+          "items": [
+            { "name": "Property, plant and equipment",      "note": 3,  "2024": 16248, "2023": 9422 },
+            { "name": "Right-of-use assets",                 "note": 40, "2024": 18199, "2023": 12061 },
+            { "name": "Capital work-in-progress",            "note": 3,  "2024": 4642,  "2023": 8126 },
+            { "name": "Goodwill",                            "note": 4,  "2024": 6286,  "2023": 6290 },
+            { "name": "Other Intangible assets",             "note": 3,  "2024": 1463,  "2023": 1536 },
+            { "name": "Intangible assets under development", "note": 4,  "2024": 127,   "2023": 434 },
+            {
+              "name": "Financial assets",
+              "note": 5,
+              "subitems": [
+                { "name": "Investments",       "2024": 24499, "2023": 11776 },
+                { "name": "Trade receivables", "2024": 66,     "2023": 39    },
+                { "name": "Other financial assets", "2024": 4528, "2023": 1748 }
+              ]
+            },
+            { "name": "Deferred tax assets (net)", "note": 8,  "2024": 2014, "2023": 3614 },
+            { "name": "Income tax assets (net)",   "note": 9,  "2024": 2881, "2023": 2212 },
+            { "name": "Other non-current assets",  "note": 9,  "2024": 1808, "2023": 1848 }
+          ],
+          "total_non_current_assets": { "2024": 82761, "2023": 59106 }
+        },
+        "current": {
+          "items": [
+            { "name": "Inventories",   "note": 10, "2024": 30,   "2023": 33   },
+            {
+              "name": "Financial assets",
+              "subitems": [
+                { "name": "Investments",         "note": 11, "2024": 67534, "2023": 47418 },
+                { "name": "Trade receivables",   "note": 12, "2024": 53721, "2023": 53185 },
+                { "name": "Unbilled revenue",    "note": 13, "2024": 12902, "2023": 15566 },
+                { "name": "Cash & equivalents",  "note": 14, "2024": 15947, "2023": 20630 },
+                { "name": "Other bank balances", "note": 15, "2024": 9960,  "2023": 5931  },
+                { "name": "Loans",               "note": 16, "2024": 456,   "2023": 794   },
+                { "name": "Other financial assets", "note": 17, "2024": 2628, "2023": 1807 }
+              ]
+            },
+            { "name": "Income tax assets (net)",  "note": 18, "2024": 249,  "2023": null },
+            { "name": "Other current assets",     "note": 18, "2024": 18389,"2023": 19900 }
+          ],
+          "total_current_assets": { "2024": 181816, "2023": 165264 }
+        },
+        "total_assets": { "2024": 264577, "2023": 224370 }
+      },
+      "equity_and_liabilities": {
+        "equity": {
+          "items": [
+            { "name": "Equity share capital",           "note": 19, "2024": 296,    "2023": 296 },
+            { 
+              "name": "Other equity",
+              "subitems": [
+                { "name": "Other reserves",                 "note": 20, "2024": 14266, "2023": 8508 },
+                { "name": "Retained earnings",              "note": 20, "2024": 178422,"2023":150966 },
+                { "name": "Share application money pending allotment", "note": 20, "2024": 1, "2023": 0 }
+              ]
+            }
+          ],
+          "total_equity": { "2024": 192985, "2023": 159770 }
+        },
+        "liabilities": {
+          "non_current": {
+            "items": [
+              {
+                "name": "Financial liabilities",
+                "subitems": [
+                  { "name": "Lease liabilities",         "note": 40, "2024": 16425, "2023": 11401 },
+                  { "name": "Other financial liabilities","note": 21, "2024": 318,   "2023": 1774  }
+                ]
+              },
+              { "name": "Deferred tax liabilities", "note": 8, "2024": 0,   "2023": 26   },
+              { "name": "Provisions",               "note": 22,"2024":157,  "2023": 350  }
+            ],
+            "total_non_current_liabilities": { "2024": 16900, "2023": 13551 }
+          },
+          "current": {
+            "items": [
+              {
+                "name": "Financial liabilities",
+                "subitems": [
+                  { "name": "Trade payables",                         "note": 23, "2024": 118,   "2023": 154   },
+                  { "name": "Due to micro & small enterprises",       "note": 23, "2024": 14927, "2023": 12668 },
+                  { "name": "Lease liabilities",                      "note": 40, "2024": 2894,  "2023": 2190  },
+                  { "name": "Other financial liabilities",            "note": 24, "2024": 14371, "2023": 15890 }
+                ]
+              },
+              { "name": "Other current liabilities", "note": 25, "2024": 13105,"2023":10901 },
+              { "name": "Provisions",               "note": 26, "2024": 7954, "2023": 7696  },
+              { "name": "Income tax liabilities (net)", "note": null, "2024": 1323, "2023":1550  }
+            ],
+            "total_current_liabilities": { "2024": 54692, "2023": 51049 }
+          },
+          "total_liabilities": {
+            "2024": 71592,
+            "2023": 64600
+          }
+        }
+      },
+      "total_equity_and_liabilities": { "2024": 264577, "2023": 224370 }
+    }
+  }

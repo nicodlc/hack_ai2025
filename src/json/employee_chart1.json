@@ -1,0 +1,66 @@
+{
+    "employees": [
+      {
+        "category": "Permanent (E)",
+        "total": 81650,
+        "male":    { "count": 56566, "pct": 69.28 },
+        "female":  { "count": 25061, "pct": 30.69 },
+        "others":  { "count": 23,    "pct": 0.03  }
+      },
+      {
+        "category": "Other than Permanent (F)",
+        "total": 3952,
+        "male":    { "count": 2873,  "pct": 72.70 },
+        "female":  { "count": 871,   "pct": 22.04 },
+        "others":  { "count": 208,   "pct": 5.26  }
+      },
+      {
+        "category": "Total employees (E + F)",
+        "total": 85602,
+        "male":    { "count": 59439, "pct": 69.44 },
+        "female":  { "count": 25932, "pct": 30.29 },
+        "others":  { "count": 231,   "pct": 0.27  }
+      }
+    ],
+    "differently_abled_employees": [
+      {
+        "category": "Permanent (E)",
+        "total": 58,
+        "male":    { "count": 47, "pct": 81.03 },
+        "female":  { "count": 11, "pct": 18.97 },
+        "others":  { "count": 0,  "pct": 0.00  }
+      },
+      {
+        "category": "Other than Permanent (F)",
+        "total": 3,
+        "male":    { "count": 3,  "pct": 100.00 },
+        "female":  { "count": 0,  "pct": 0.00   },
+        "others":  { "count": 0,  "pct": 0.00   }
+      },
+      {
+        "category": "Total employees (E + F)",
+        "total": 61,
+        "male":    { "count": 50, "pct": 81.97 },
+        "female":  { "count": 11, "pct": 18.03 },
+        "others":  { "count": 0,  "pct": 0.00  }
+      }
+    ],
+    "women_representation": [
+      {
+        "role": "Board of Directors",
+        "total": 12,
+        "female": { "count": 1, "pct": 8.33 }
+      },
+      {
+        "role": "Key Management Personnel",
+        "total": 2,
+        "female": { "count": 1, "pct": 50.00 }
+      }
+    ],
+    "turnover_rate_permanent_employees": {
+      "FY2023-24": { "male": 14.21, "female": 14.98, "others": 11.54, "total": 14.45 },
+      "FY2022-23": { "male": 20.10, "female": 20.30, "others": 8.70,  "total": 20.20 },
+      "FY2021-22": { "male": 24.00, "female": 23.10, "others": 0.00,  "total": 23.80 }
+    }
+  }
+  

@@ -1,0 +1,39 @@
+{
+    "profit_and_loss_statement": {
+      "period_ends": {
+        "current_year": "March 31, 2024",
+        "prior_year":   "March 31, 2023"
+      },
+      "income": [
+        { "name": "Revenue from operations", "note": 27, "current": 342534, "prior": 319755 },
+        { "name": "Other income",             "note": 28, "current":   7099, "prior":   5016 }
+      ],
+      "total_income":        { "current": 349633, "prior": 324771 },
+      "expenses": [
+        { "name": "Employee benefits expense",      "note": 29, "current": 210490, "prior": 194274 },
+        { "name": "Sub‑contracting expenses",       "note": null, "current":  32349, "prior": 33422 },
+        { "name": "Finance costs",                  "note": 30, "current":   2071, "prior":  1441 },
+        { "name": "Depreciation & amortization",    "note": 31, "current":   7604, "prior":  6486 },
+        { "name": "Other expenses",                 "note": 32, "current":  38325, "prior": 33362 }
+      ],
+      "total_expenses":      { "current": 290839, "prior": 268985 },
+      "profit_before_tax":   { "current":  58794, "prior":  55786 },
+      "tax_expense": {
+        "current_tax":  { "note": "33(I)",  "current": 13917, "prior": 13828 },
+        "deferred_tax": { "note": "33(II)", "current":    18, "prior":  -524 },
+        "total_tax":   {             "current": 13935, "prior": 13304 }
+      },
+      "net_profit_after_tax":        { "current": 44859, "prior": 42482 },
+      "other_comprehensive_income": {
+        "note": 34,
+        "not_reclassified": { "current":  223, "prior":  117 },
+        "reclassified":     { "current": 4626, "prior": -6951 },
+        "total_oci":        { "current": 4849, "prior": -6834 }
+      },
+      "total_comprehensive_income":  { "current": 49708, "prior": 35648 },
+      "earnings_per_share": {
+        "basic":   { "note": 42, "current": 151.60, "prior": 143.66 },
+        "diluted": { "note": 42, "current": 151.24, "prior": 143.43 }
+      }
+    }
+  }
